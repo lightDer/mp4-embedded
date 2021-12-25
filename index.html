@@ -14,15 +14,16 @@
 <body>
   <div class="container mt-4">
     <h1>Hello, world!</h1>
-    <img src='static/p1.jpg' />
-    <div>
-      <img src='static/p2.jpg' />
-      <video autoplay muted loop>
-        <source src="static/preview.mp4"
-        type="video/mp4" >
+  </div>
+  <div class="container mt-4">
+    <img src='static/p1.jpg' style='max-width:100%' />
+    <div class='position-relative'>
+      <img src='static/p2.jpg' style='max-width: 100%;' />
+      <video autoplay muted loop class='position-absolute' style="max-width:96%;left:2%;bottom:18%;">
+        <source src="static/preview.mp4" type="video/mp4">
       </video>
     </div>
-    <img src='static/p3.jpg' />
+    <img src='static/p3.jpg' style='max-width: 100%;' />
   </div>
 
 </body>
